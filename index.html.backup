@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaryan Anuj Enterprises - Premium Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-building"></i>
+                <span>Aaryan Anuj Enterprises</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Premium Real Estate Solutions</span>
+            <h1>Discover Your Perfect Space</h1>
+            <p>Transforming dreams into addresses with excellence and trust</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-button primary">Explore Projects</a>
+                <a href="#contact" class="cta-button secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <i class="fas fa-building"></i>
+                <h3>30+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3>150+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-award"></i>
+                <h3>10+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-handshake"></i>
+                <h3>100%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-subtitle">Our Portfolio</span>
+            <h2>Featured Projects</h2>
+            <p>Explore our premium residential and commercial developments - 7 exceptional projects</p>
+        </div>
+        
+        <div class="project-filter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="residential">Residential</button>
+            <button class="filter-btn" data-filter="commercial">Commercial</button>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card" data-category="residential">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop" alt="Dular Enclave">
+                    <div class="project-overlay">
+                        <span class="project-tag">Residential</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Dular Enclave</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Prime Location</p>
+                    <p class="project-description">Luxurious residential apartments with modern amenities and spacious layouts</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-home"></i> 2-3 BHK</span>
+                        <span><i class="fas fa-car"></i> Parking</span>
+                        <span><i class="fas fa-swimming-pool"></i> Pool</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="Web Dular Broucher-1-2 (1).pdf" class="download-btn" download>
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="residential">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" alt="Winsome Vatika">
+                    <div class="project-overlay">
+                        <span class="project-tag">Residential</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Winsome Vatika</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Garden City</p>
+                    <p class="project-description">Elegant homes surrounded by lush greenery and premium facilities</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-home"></i> 3-4 BHK</span>
+                        <span><i class="fas fa-tree"></i> Garden</span>
+                        <span><i class="fas fa-dumbbell"></i> Gym</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="winsome vatika brochure.pdf" class="download-btn" download>
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="residential">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop" alt="Winsome Dwarika">
+                    <div class="project-overlay">
+                        <span class="project-tag">Residential</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Winsome Dwarika</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Central District</p>
+                    <p class="project-description">Contemporary living spaces with world-class infrastructure</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-home"></i> 2-4 BHK</span>
+                        <span><i class="fas fa-shield-alt"></i> Security</span>
+                        <span><i class="fas fa-child"></i> Play Area</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="Winsome Dwarika Residency brochure.pdf" class="download-btn" download>
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="residential">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&h=400&fit=crop" alt="Winsome Pitambar Gold">
+                    <div class="project-overlay">
+                        <span class="project-tag">Residential</span>
+                        <span class="project-badge">Premium</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Winsome Pitambar Gold</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Luxury Zone</p>
+                    <p class="project-description">Ultra-premium residences with gold-standard amenities and finishes</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-home"></i> 3-5 BHK</span>
+                        <span><i class="fas fa-concierge-bell"></i> Concierge</span>
+                        <span><i class="fas fa-spa"></i> Spa</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="pitambar gol brochure.pdf" class="download-btn" download>
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="commercial">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop" alt="Kunj Bihari Commercial">
+                    <div class="project-overlay">
+                        <span class="project-tag commercial-tag">Commercial</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Kunj Bihari Commercial</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Business Hub</p>
+                    <p class="project-description">State-of-the-art commercial spaces for modern businesses</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-briefcase"></i> Office Space</span>
+                        <span><i class="fas fa-store"></i> Retail</span>
+                        <span><i class="fas fa-wifi"></i> High-Speed Internet</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="https://share.google/A4fE5F7kDn0lCCXUJ" class="download-btn" target="_blank">
+                            <i class="fas fa-download"></i> View Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="commercial">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop" alt="ATS Kabana High">
+                    <div class="project-overlay">
+                        <span class="project-tag commercial-tag">Commercial</span>
+                        <span class="project-badge">New</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ATS Kabana High</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Corporate District</p>
+                    <p class="project-description">Premium high-rise commercial complex with cutting-edge facilities</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-building"></i> High-Rise</span>
+                        <span><i class="fas fa-parking"></i> Multi-level Parking</span>
+                        <span><i class="fas fa-utensils"></i> Food Court</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="Kabana_Retail brochure.pptx" class="download-btn" download>
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="residential">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&h=400&fit=crop" alt="ATS Homekraft">
+                    <div class="project-overlay">
+                        <span class="project-tag">Residential</span>
+                        <span class="project-badge">Featured</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ATS Homekraft</h3>
+                    <p class="project-location"><i class="fas fa-map-marker-alt"></i> Premium Location</p>
+                    <p class="project-description">Thoughtfully designed homes with exceptional craftsmanship and modern living</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-home"></i> 2-4 BHK</span>
+                        <span><i class="fas fa-leaf"></i> Green Spaces</span>
+                        <span><i class="fas fa-shield-alt"></i> 24/7 Security</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="details-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                        <a href="ats homekraft.pptx" class="download-btn" download>
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=700&fit=crop" alt="About Us">
+                <div class="about-badge">
+                    <i class="fas fa-trophy"></i>
+                    <span>Award Winning</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-subtitle">About Us</span>
+                <h2>Building Dreams, Creating Landmarks</h2>
+                <p>Aaryan Anuj Enterprises is a distinguished name in the real estate industry, committed to delivering exceptional residential and commercial properties. With over 10 years of expertise, we have established ourselves as a trusted partner for those seeking quality, innovation, and value.</p>
+                <p>Our portfolio showcases a perfect blend of modern architecture, strategic locations, and world-class amenities. We believe in creating spaces that not only meet but exceed expectations, transforming the way people live and work.</p>
+                <div class="about-values">
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Quality Construction</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Timely Delivery</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Customer Satisfaction</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Transparent Dealings</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="owner-section">
+        <div class="owner-container">
+            <div class="owner-content">
+                <span class="section-subtitle">Leadership</span>
+                <h2>Meet Our Founder</h2>
+                <div class="owner-card">
+                    <div class="owner-image">
+                        <img src="image.jpg.jpeg" alt="Anuj Singh">
+                        <div class="owner-badge">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="owner-info">
+                        <h3>Anuj Singh</h3>
+                        <p class="owner-title">Founder & CEO</p>
+                        <p class="owner-bio">With over 10 years of dedicated experience in the real estate industry, Anuj Singh has been the driving force behind Aaryan Anuj Enterprises' success. His vision of creating quality living spaces combined with unwavering commitment to customer satisfaction has transformed the company into a trusted name in real estate.</p>
+                        <p class="owner-bio">Under his leadership, the company has successfully delivered 30+ premium projects, earning the trust of over 150 satisfied clients. His expertise spans across residential and commercial developments, with a keen eye for strategic locations and innovative design.</p>
+                        <p class="owner-bio">Anuj believes in building not just properties, but lasting relationships. His hands-on approach ensures that every project reflects the highest standards of quality, transparency, and timely delivery. His dedication to excellence and ethical business practices has made Aaryan Anuj Enterprises a preferred choice for homebuyers and investors alike.</p>
+                        <div class="owner-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div>
+                                    <h4>10+ Years</h4>
+                                    <p>Industry Experience</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-certificate"></i>
+                                <div>
+                                    <h4>30+ Projects</h4>
+                                    <p>Successfully Delivered</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>150+ Clients</h4>
+                                    <p>Satisfied Customers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <blockquote class="owner-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Our mission is simple - to create spaces where dreams come home. Every project we undertake is a commitment to quality, integrity, and the trust our clients place in us."</p>
+                            <cite>- Anuj Singh</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <span class="section-subtitle">What We Offer</span>
+            <h2>Our Services</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3>Property Sales</h3>
+                <p>Find your dream property from our extensive portfolio of residential and commercial spaces</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-key"></i>
+                </div>
+                <h3>Property Rental</h3>
+                <p>Premium rental solutions for both short-term and long-term requirements</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Investment Advisory</h3>
+                <p>Expert guidance on real estate investments for maximum returns</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-file-contract"></i>
+                </div>
+                <h3>Legal Assistance</h3>
+                <p>Complete documentation and legal support for hassle-free transactions</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2>Let's Discuss Your Dream Property</h2>
+                <p>Our team is ready to assist you in finding the perfect space that matches your requirements and budget.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 7979012267</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>xaaryananuj@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Office</h4>
+                            <p>Business District, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" action="https://formsubmit.co/xaaryananuj@gmail.com" method="POST">
+                <!-- FormSubmit Configuration -->
+                <input type="hidden" name="_subject" value="New Inquiry from Aaryan Anuj Enterprises Website">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="work_profile" placeholder="Work Profile / Occupation" required>
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="form-group">
+                    <select name="interest" required>
+                        <option value="">Select Interest</option>
+                        <option value="Residential Property">Residential Property</option>
+                        <option value="Commercial Property">Commercial Property</option>
+                        <option value="Investment Inquiry">Investment Inquiry</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <i class="fas fa-comment"></i>
+                </div>
+                <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-building"></i> Aaryan Anuj Enterprises</h3>
+                <p>Your trusted partner in premium real estate solutions. Building dreams, creating landmarks.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Projects</h4>
+                <ul>
+                    <li><a href="#projects">Dular Enclave</a></li>
+                    <li><a href="#projects">Winsome Vatika</a></li>
+                    <li><a href="#projects">Winsome Dwarika</a></li>
+                    <li><a href="#projects">Winsome Pitambar Gold</a></li>
+                    <li><a href="#projects">Kunj Bihari Commercial</a></li>
+                    <li><a href="#projects">ATS Kabana High</a></li>
+                    <li><a href="#projects">ATS Homekraft</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe to get updates on new projects</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email">
+                    <button><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aaryan Anuj Enterprises. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Ignore large brochure files
+*.pdf
+*.pptx
+*.PDF
+*.PPTX
+
+# Ignore large images
+image.jpg.jpeg
+
+# Keep only code files
+!index.html
+!styles.css
+!script.js
+!thank-you.html
